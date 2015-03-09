@@ -1,0 +1,23 @@
+Bruno Elia
+Technical Leader at MercadoLibre
+
+- Cadastrar aplicação no MercadoLivre
+- Autenticação vs Autorização
+- Notificações
+- Vendendo
+
+ngrok -subdomain imasters-demo  8080
+
+// curl -XPOST -d'{"user_id": 178441900, "resource": "/orders/931988725", "topic": "orders", "received": "2011-10-19T16:38:34.425Z", "sent" : "2011-10-19T16:40:34.425Z"}' imasters-demo.ngrok.com/demo/notifications.php
+
+// usuario comprador
+
+user_id : 178441900
+nickname : TETE4392952
+password : qatest3697
+
+// usuario vendedor
+
+user_id : 178441911
+nickname : TETE254865
+password : qatest9254
